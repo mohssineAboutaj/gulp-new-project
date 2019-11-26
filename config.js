@@ -39,7 +39,6 @@ config.cssList = [
 ]
 
 config.jsList = [
-	'./node_modules/@fortawesome/fontawesome-free/js/all.min.js',
 	config.src.js + 'script.js',
 ]
 

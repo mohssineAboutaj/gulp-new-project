@@ -37,7 +37,6 @@
   "author": "Mohssine Aboutaj",
   "license": "MIT",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.11.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-browserify": "^0.5.1",
     "gulp-clean-css": "^4.2.0",
