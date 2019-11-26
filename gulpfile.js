@@ -60,7 +60,7 @@ gulp.task('test:browser-task', () => {
 
 // pug task
 gulp.task('pug-task', () => {
-	gulp.src(src.pugMain)
+	gulp.src(src.pugPages)
 			.pipe(pug({
 				pretty: true,
 			}))

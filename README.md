@@ -7,6 +7,7 @@ A general workflow to develope your template using [GulpJs](https://gulpjs.com/)
 + [How to use](#How-to-use)
 + [Options](#Options)
 + [Adding external scripts & styles](#Adding-external-scripts-&-styles-(Recommended))
++ [Available scripts](#Available-scripts)
 + [Changelog](#Changelog)
 + [License](#License)
 
@@ -28,14 +29,23 @@ A general workflow to develope your template using [GulpJs](https://gulpjs.com/)
 <br>or<br>
 ``yarn start``
 
-## Options
-+ Default mode is to build a single page website, to change it go to `config.js` and change the property `singlePage` to `false`, then add your pages in `src/pug/pages/`
+## Html configuration
++ The folder named `pages` is for the htm pages, any file exist in `src/pug/pages/` is an html page & other folders is only for include
 
 ## Adding external scripts & styles (Recommended)
 + Open the file `config.js` look for `jsList` for scripts & `cssList` for styles
 + Add file path in the *Array*
 
-**NOTE:** if you have an external Scss file you can import it into the main scss file in `src/scss/style.scss`
+**NOTE:** if you have an external Scss file you can import it into the main scss file in `src/scss/libs/libs.scss` or move in `src/scss/libs/` & import in `src/scss/libs/libs.scss`
+
+## Available scripts
++ **start**               Start the project & run live server with compiling & layout build (developement mode)
++ **build**               Build the project for production
++ **build:css**           Build the project css files for production
++ **build:js**            Build the project js files for production
++ **build:html**          Build the project html files for production
++ **test**                Run testing in command line
++ **test:browser**        Run testing in the browser
 
 ## Changelog
 [Changelog](./CHANGELOG.md)

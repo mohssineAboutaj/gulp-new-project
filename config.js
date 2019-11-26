@@ -1,8 +1,11 @@
+/**
+ * is a config for gulpfile
+ */
 // define config object
 let config = {};
 
 /* Start fill the config Object */
-config.singlePage = true
+// config.singlePage = true
 
 config.server = {}
 
@@ -30,11 +33,11 @@ config.src.jsMain = config.src.js + "script.js"
 
 config.src.pug = config.src.dir + "pug/"
 config.src.pugFiles = config.src.pug + "**/*.pug"
-if (config.singlePage == true) {
-	config.src.pugMain = config.src.pug + "index.pug"
-} else {
-	config.src.pugMain = config.src.pug + "pages/*.pug"
-}
+// if (config.singlePage == true) {
+// 	config.src.pugMain = config.src.pug + "index.pug"
+// } else {
+	config.src.pugPages = config.src.pug + "pages/*.pug"
+// }
 
 config.cssList = [
 	config.src.css + 'style.css',
