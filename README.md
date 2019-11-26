@@ -2,7 +2,7 @@
 
 A general workflow to develope your template using [GulpJs](https://gulpjs.com/) & [PugJs](https://pugjs.org/) & [Sass/Scss](https://sass-lang.com/) with live reload & build scripts
 
-## Table of content
+## Table of contents
 + [Requirements](#Requirements)
 + [How to use](#How-to-use)
 + [Options](#Options)
