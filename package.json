@@ -1,0 +1,60 @@
+{
+  "name": "gulp-new-project",
+  "version": "1.0.0",
+  "description": "A general workflow to develope your template using GulpJs & PugJs & Sass/Scss with live reload & build scripts",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "npx gulp",
+    "build": "npx gulp build-task",
+    "build:css": "npx gulp build:css-task",
+    "build:js": "npx gulp build:js-task",
+    "build:html": "npx gulp build:html-task",
+    "test": "npx gulp test-task",
+    "test:browser": "npx gulp test:browser-task"
+  },
+  "browserslist": [
+    "> 1%",
+    "ie >= 8",
+    "edge >= 15",
+    "ie_mob >= 10",
+    "ff >= 45",
+    "chrome >= 45",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4",
+    "bb >= 10"
+  ],
+  "keywords": [
+    "template",
+    "gulpjs",
+    "gulp",
+    "sass",
+    "scss",
+    "pugjs",
+    "pug"
+  ],
+  "author": "Mohssine Aboutaj",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-minify": "^3.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "3.9.0",
+    "gulp-cli": "^2.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-file": "^0.4.0",
+    "gulp-jasmine": "^4.0.0",
+    "gulp-jasmine-browser": "^4.1.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-run": "^1.7.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1"
+  }
+}
